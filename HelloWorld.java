@@ -10,6 +10,10 @@ public class HelloWorld {
 		return (value - 10);
 	}
 	
+	public float multiplyValue(float value, float value2) {
+		return (value*value2);
+	}
+	
 	public String append (String A, String B) {
 		return A + " " + B;
 	}
